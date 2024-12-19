@@ -13,15 +13,13 @@ body{
     
 }
 
-
-
 .overlay{
     position: absolute;
     top: 0;
     left: 0;
     bottom: 0;
     width: 100%;
-    height: 125vh;
+    height: 100vh;
     background: url("wallpaper.jpg") center center no-repeat;
     background-size: cover;
     z-index: -100;
@@ -53,18 +51,14 @@ nav .menu-icon{
 
 }
 
-a .menu-langue{
-    width: 30px;
-    cursor: pointer;
-    position: relative;
-    left: 1000px;
-}
 
-a .menu-anglais{
-    width: 30px;
-    cursor: pointer;
+
+div .menu-anglais{
     position: relative;
-    left: 1050px;
+    width: 60px;
+    left: 98%;
+    
+
 }
 
 nav ul{
@@ -96,7 +90,7 @@ nav ul li a:hover{
 
 
 .text {
-    padding: 70px 0;
+    padding: 0px 0;
     color: #fff;
     max-width: 90%;
     margin-left: auto;
@@ -105,7 +99,7 @@ nav ul li a:hover{
 }
 
 .text h1{
-    font-size: 75px;
+    font-size: 65px;
     line-height: 1.5;
     letter-spacing: 1px;
     margin-bottom: 1rem;

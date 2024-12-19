@@ -9,11 +9,42 @@
 body{
     font-family: "Tw Cen Mt"; 
     font-size: 14px;
+    margin: 0;
 
     
 }
 
+.titre_personnage{
+    position:relative;
+    margin: 0;
+    color: white;
+    text-align: center;
+}
 
+.gallery{
+    position: relative;
+    display: inline-block;
+    border: 5px solid grey;
+    margin: 10px;
+    background-color: rgb(0, 0, 0, 0.3);
+    margin-left: 8%;
+    border-bottom: 0;
+}
+
+.gallery .description{
+    padding: 10px;
+    color: white;
+    text-align: center;
+
+}
+
+.gallery img{
+    width: 250px;
+}
+
+.gallery:hover{
+    border: 1px solid grey;
+}
 
 .overlay{
     position: absolute;
@@ -21,8 +52,108 @@ body{
     left: 0;
     bottom: 0;
     width: 100%;
-    height: 125vh;
+    height: 120vh;
     background: url("wallpaper.jpg") center center no-repeat;
+    background-size: cover;
+    z-index: -100;
+}
+
+.overlay2{
+    position: absolute;
+    top: 700px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 120vh;
+    background: url("wallpaper4.jpg") center center no-repeat;
+    background-size: cover;
+    z-index: -100;
+}
+
+
+.overlay3{
+    position: absolute;
+    top: 1400px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 120vh;
+    background: url("wallpaper5.png") center center no-repeat;
+    background-size: cover;
+    z-index: -100;
+}
+
+
+.overlay4{
+    position: absolute;
+    top: 2100px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 120vh;
+    background: url("wallpaper6.jpg") center center no-repeat;
+    background-size: cover;
+    z-index: -100;
+}
+
+.overlay5{
+    position: absolute;
+    top: 2800px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 120vh;
+    background: url("wallpaper7.png") center center no-repeat;
+    background-size: cover;
+    z-index: -100;
+}
+
+
+.overlay6{
+    position: absolute;
+    top: 3500px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 120vh;
+    background: url("wallpaper8.jpg") center center no-repeat;
+    background-size: cover;
+    z-index: -100;
+}
+
+.overlay7{
+    position: absolute;
+    top: 4200px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 120vh;
+    background: url("wallpaper9.jpg") center center no-repeat;
+    background-size: cover;
+    z-index: -100;
+}
+
+.overlay8{
+    position: absolute;
+    top: 4900px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 120vh;
+    background: url("wallpaper10.png") center center no-repeat;
+    background-size: cover;
+    z-index: -100;
+}
+
+
+.overlay9{
+    position: absolute;
+    top: 5600px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 110vh;
+    background: url("wallpaper11.jpg") center center no-repeat;
     background-size: cover;
     z-index: -100;
 }
@@ -53,19 +184,6 @@ nav .menu-icon{
 
 }
 
-a .menu-langue{
-    width: 30px;
-    cursor: pointer;
-    position: relative;
-    left: 1000px;
-}
-
-a .menu-anglais{
-    width: 30px;
-    cursor: pointer;
-    position: relative;
-    left: 1050px;
-}
 
 nav ul{
     flex: 1;
@@ -98,9 +216,25 @@ nav ul li a:hover{
 .text {
     padding: 70px 0;
     color: #fff;
-    max-width: 90%;
+    width: 1250px;
     margin-left: auto;
     margin-right: auto;
+
+}
+
+
+
+
+.text h2.background-h{
+    margin: 0;
+    background-color: rgb(0, 0, 0, 0.3);
+    height: 50px;
+    
+}
+
+.text p.background-p{
+    margin: 0;
+    background-color: rgb(0, 0, 0, 0.3);
 
 }
 
@@ -149,16 +283,16 @@ footer {
     border-radius: 20px;
     display: flex;
     position: relative;
-    margin-top: 0;
+    margin-top: 700;
     margin-bottom: 0;
     justify-content: center;
     padding: 14px;
     background-color: #45a1ff;
     color: #fff;
-    margin:0;
 }
 
 footer img.copyright-logo{
+    
     width: 10px;
     margin-left: 10px;
 
